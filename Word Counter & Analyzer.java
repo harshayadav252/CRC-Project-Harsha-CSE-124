@@ -10,7 +10,7 @@ String words[] = text.split(" ");
 int wordCount = 0;
 int freq = 0;
 for (int i = 0; i < words.length; i++) {
-if (!words[i].equals("")) {   // ignore extra spaces
+if (!words[i].equals("")) {  
 wordCount++;
 if (words[i].equalsIgnoreCase(find)) {
 freq++;
